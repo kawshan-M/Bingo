@@ -10,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //video link
+        //https://drive.google.com/drive/folders/1xXdHAj_Ghz60a18Hv7PJ-OP55fRnNsZI?usp=sharing
         supportActionBar?.hide()
 
         Handler().postDelayed({

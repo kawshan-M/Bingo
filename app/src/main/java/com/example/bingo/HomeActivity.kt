@@ -17,7 +17,7 @@ class HomeActivity : AppCompatActivity() {
         supportActionBar?.hide()
         val startButton = findViewById<Button>(R.id.startbtn)
         startButton.setOnClickListener {
-            val start = Intent(this,StartActivity::class.java)
+            val start = Intent(this,SettingActivity::class.java)
             startActivity(start)
         }
 
